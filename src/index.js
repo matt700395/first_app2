@@ -13,24 +13,12 @@ import Clockstate4 from './usingHooks/ClockState4';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-setInterval(()=>{
-  root.render(
-    <React.StrictMode>
-      <Clockstate4 />
-    </React.StrictMode>
-  );
-})
-
-
-
-{/*
 root.render(
   <React.StrictMode>
-    <Library />
+    <Clockstate4 />
   </React.StrictMode>
 );
 
 
-*/}
 
 reportWebVitals();
