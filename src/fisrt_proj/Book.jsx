@@ -10,3 +10,8 @@ function Book(props) {
 }
 
 export default Book;
+
+// const props = {
+//     name : "처음만난 파이썬",
+//     numOfPage : 300,
+// };

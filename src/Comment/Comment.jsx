@@ -33,15 +33,6 @@ const styles = {
 };
 
 
-//Comment.jsx
-// function Comment(props) {
-
-//     return (
-//         <div>
-//             <h1>댓글창 만들기 첫번째 컴포넌트 입니다.</h1>
-//         </div>
-//     );
-// }
 function Comment(props) {
     return (
         <div style={styles.wrapper}>
@@ -61,6 +52,5 @@ function Comment(props) {
         </div>
     );
 }
-
 
 export default Comment;
